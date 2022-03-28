@@ -1,2 +1,2 @@
 # autopilot
-first program for the course
+First program for the course
