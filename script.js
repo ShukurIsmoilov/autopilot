@@ -89,9 +89,9 @@ function getCommand() {
                 alert("Ooooopps, you ran out of lines, give it another try ;)");
                 location.reload();
 
-             }
+            }
 
-            codeLines[num].removeAttribute("disabled"); 
+            codeLines[num].removeAttribute("disabled");
 
         }
         //===========================================================================
@@ -126,8 +126,8 @@ function getCommand() {
                 alert("Ooooopps, you ran out of lines, give it another try ;)");
                 location.reload();
 
-             }
-            
+            }
+
             codeLines[num].removeAttribute("disabled");
 
         }
@@ -158,7 +158,7 @@ function getCommand() {
                 alert("Congrats, Hoooorrrraaay, you made it. Keep calm and continue coding ;)");
             }
 
-            
+
 
             codeLines[num].disabled = true;
 
@@ -207,10 +207,10 @@ function getCommand() {
                 alert("Ooooopps, you ran out of lines, give it another try ;)");
                 location.reload();
 
-             }
+            }
 
             codeLines[num].removeAttribute("disabled");
-   
+
         }
         //===========================================================================
         //========================= when command is wrong ===========================
