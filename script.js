@@ -57,7 +57,7 @@ function getCommand() {
 
         if (loc > 11) {
 
-            alert("Car cannot move forward anymore! Please, try other directions ;)");
+            alert("Car is on the edge and can not move forward! Please, try other directions ;)");
             codeLines[num].classList.add("bad-command");
 
         } else {
@@ -76,7 +76,7 @@ function getCommand() {
             if (loc === 15) {
                 console.log("Congrats, car reached destination!");
                 btnRun.disabled = true;
-                alert("Congrats, you made it. Keep calm and continue Coding ;)");
+                alert("Congrats, Hoooorrrraaay, you made it. Keep calm and continue coding ;)");
             }
 
 
@@ -86,7 +86,7 @@ function getCommand() {
 
             if (num === 8 && loc !== 15) {
 
-                alert("Your code is inefficient, give it another try");
+                alert("Ooooopps, you ran out of lines, give it another try ;)");
                 location.reload();
 
              }
@@ -100,7 +100,7 @@ function getCommand() {
 
         if (loc < 4) {
 
-            alert("Car cannot move backwards anymore! Please, try other directions ;)");
+            alert("Car is on the edge and can not move backwards! Please, try other directions ;)");
             codeLines[num].classList.add("bad-command");
 
         } else {
@@ -123,7 +123,7 @@ function getCommand() {
 
             if (num === 8) {
 
-                alert("Your code is inefficient, give it another try");
+                alert("Ooooopps, you ran out of lines, give it another try ;)");
                 location.reload();
 
              }
@@ -137,7 +137,7 @@ function getCommand() {
 
         if ((loc + 1) % 4 === 0) {
 
-            alert("Car cannot go to right direction anymore! Please, try other directions ;)");
+            alert("Car is on the edge and can not move right! Please, try other directions ;)");
             codeLines[num].classList.add("bad-command");
 
         } else {
@@ -155,7 +155,7 @@ function getCommand() {
             if (loc === 15) {
                 console.log("Congrats, car reached destination!");
                 btnRun.disabled = true;
-                alert("Congrats, you made it. Keep calm and continue Coding ;)");
+                alert("Congrats, Hoooorrrraaay, you made it. Keep calm and continue coding ;)");
             }
 
             
@@ -166,7 +166,7 @@ function getCommand() {
 
             if (num === 8 && loc !== 15) {
 
-                alert("Your code is inefficient, give it another try");
+                alert("Ooooopps, you ran out of lines, give it another try ;)");
                 location.reload();
 
             }
@@ -180,7 +180,7 @@ function getCommand() {
 
         if (loc % 4 === 0) {
 
-            alert("Car cannot go to left direction anymore! Please, try other directions ;)");
+            alert("Car is on the edge and can not move left! Please, try other directions ;)");
             codeLines[num].classList.add("bad-command");
 
         } else {
@@ -204,7 +204,7 @@ function getCommand() {
 
             if (num === 8) {
 
-                alert("Your code is inefficient, give it another try");
+                alert("Ooooopps, you ran out of lines, give it another try ;)");
                 location.reload();
 
              }
@@ -222,5 +222,5 @@ function getCommand() {
 
 }
 
-//==== attaching function 'getCommand' on click event of 'run-btn'====
+//========= attaching function 'getCommand' on click event of 'run-btn'==============
 btnRun.addEventListener('click', getCommand);
